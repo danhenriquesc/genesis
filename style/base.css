@@ -1,0 +1,285 @@
+*{
+    border: 0;
+    font-family: [[setting:fontFamily]], sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body{
+    background-color: #FFFFFF;
+}
+
+.no-marginleft{
+    margin-left: 0 !important;
+}
+.no-marginright{
+    margin-right: 0 !important;
+}
+
+.display-none{
+    display: none !important;
+}
+
+.float-right{
+    float: right !important;
+}
+
+/* Social Icons */
+ul.social-icons{
+    margin: 0;
+    list-style-type: none;
+}
+ul.social-icons>li{
+    cursor: pointer;
+    float: left;
+    height: 25px;
+    width: 25px;
+}
+
+/* Default Itens */
+#defaultlogo{
+    background: url([[pix:theme|defaultlogo]]) no-repeat center;
+    height: 70px;
+    width: 200px;
+}
+#logo img{
+    height: [[setting:logoHeight]];
+    width: auto;
+}
+#defaultlogowhite{
+    background: url([[pix:theme|defaultlogowhite]]) no-repeat center;
+    height: 70px;
+    width: 200px;
+}
+#logowhite{
+    background: url([[setting:footermod_aboutus_whitelogo]]) no-repeat center;
+    height: 70px;
+    width: 200px;
+}
+.shadow1{
+    background: url([[pix:theme|shadow1]]) no-repeat center;
+    height: 20px;
+    /*position: absolute;*/
+    width: 100%;
+    z-index: 1;
+}
+.shadow2{
+    background: url([[pix:theme|shadow2]]) no-repeat center;
+    height: 13px;
+    position: absolute;
+    z-index: 1;
+}
+.sixteen.columns .shadow2{
+    width: 100%;
+}
+.eight.columns .shadow2{
+    width: 50%;
+}
+.leftsidebar, .rightsidebar{
+    height: auto;
+    min-height: 300px;
+    width: 100%;
+}
+
+/*Moodle Base Override*/
+#page #outercontainer{
+    background: none !important;
+    background-position: 0 0 !important;
+    margin: 0 !important;
+    min-width: 0 !important;
+    width: 100% !important;
+}
+#page-content{
+    clear: none !important;
+    float: none !important;
+   /* overflow: auto !important;*/
+    width: 100% !important;
+}
+#page-content #region-main-box,#page-content #region-main-box #region-post-box{
+    float: none !important;
+    right: 0 !important;
+    width: 100% !important;
+}
+#page-content #region-main-box #region-post-box #region-main{
+    float: none !important;
+    left: 0 !important;
+    width: 100% !important;
+}
+#page-content #region-main-box #region-post-box #region-main #region-content{
+    padding: 0 0 10px 20px !important;
+}
+
+#section-0,#section-2,#section-4,#section-6,#section-8,#section-10,#section-12,#section-14,#section-16,#section-18,#section-20,#section-22,#section-24,#section-26,#section-28,#section-30,
+#section-31,#section-32,#section-33,#section-34,#section-35,#section-36,#section-37,#section-38,#section-39,#section-40,#section-41,#section-42,#section-43,#section-44,#section-45,
+#section-46,#section-47,#section-48,#section-49,#section-50,#section-51,#section-52,#section-53,#section-54,#section-55,#section-56,#section-57,#section-58,#section-59,#section-60{
+    background: #EEEEEE;
+}
+.section{
+    color: #444444 !important;
+    margin: 0 !important;
+    padding: 15px 0 5px 0 !important;
+}
+.quizinfo, #intro div,h2.main{
+    text-align: center;
+}
+h2.main{
+    margin-top: 25px;
+}
+.header{
+    margin-bottom: 0 !important;
+}
+.accesshide{
+    display: none;
+}
+
+/* Activities - Move Right and Move Left*/
+.section .activity .editing_move {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section .activity .mod-indent-outer {
+    padding-left: 32px;
+}
+.mod-indent-outer {
+    display: table;
+}
+.section .activity .actions {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* Activities - Submenu Icon */
+.moodle-actionmenu[data-enhanced].show .menu a > img {
+  margin: 4px 10px 4px -20px;
+  padding: 0px;
+  width: auto;
+  height: auto;
+}
+
+/* Quiz Overflow */
+.pagelayout-report .no-overflow{
+     overflow: auto !important;
+}
+
+/* Some Issues */
+#id_selectacategory, #id_movetocategory{
+    max-width: 100%;
+}
+div.region-content.region-content-admin-layout div.editq{
+    width: 68% !important;
+}
+div.region-content.region-content-admin-layout div.editq .quizpage{
+    max-width: none !important;
+}
+
+div.region-content.region-content-admin-layout fieldset, 
+div.region-content.region-content-admin-layout table, 
+div.region-content.region-content-admin-layout table tr, 
+div.region-content.region-content-admin-layout table td, 
+div.region-content.region-content-admin-layout table tbody, 
+div.region-content.region-content-admin-layout table thead {
+    max-width: 100% !important;;
+    min-width: initial !important;;
+}
+
+/*
+Comented because of issue of ticket #160 - Problem With Slideshow
+div.region-content.region-content-admin-layout table { display: table !important; }
+div.region-content.region-content-admin-layout table tr { display: table-row !important; }
+div.region-content.region-content-admin-layout table th, table td { display: table-cell !important; }
+*/
+
+#page-mod-quiz-edit div.question div.content .questiontext, #categoryquestions .questiontext {
+    white-space: inherit !important;
+}
+
+body#page-course-editsection.lockscroll { overflow: auto !important; height: auto !important;}
+
+
+/* Moodle 2.9 */
+
+/* Ticket #219- Profile Page */
+.userprofile .profile_tree {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+}
+.userprofile .profile_tree section {
+    display: inline-block;
+    width: 100%;
+}
+.userprofile .profile_tree section h3 {
+    font-size: 24px;
+}
+.userprofile .profile_tree section ul{
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+#page-user-profile .node_category li, .path-user .node_category li {
+    list-style-type: square;
+}
+#page-user-profile.dir-ltr .node_category .contentnode, .path-user.dir-ltr .node_category .contentnode {
+    margin-left: -25px;
+}
+#page-user-profile .node_category li.contentnode, .path-user .node_category li.contentnode {
+    list-style-type: none;
+}
+#page-user-profile li.contentnode dl,
+#page-user-profile.dir-ltr li.contentnode dl{
+    margin-bottom: 20px;
+}
+#page-user-profile li.contentnode dl dt{
+    font-weight: bold;
+    line-height: 20px;
+}
+#page-user-profile li.contentnode dl dt,
+#page-user-profile li.contentnode dl dd{
+    width: 100% !important;
+    display: block !important;
+}
+#page-user-profile li.contentnode dl dd{
+    margin-left: 10px !important;
+}
+#page-user-profile a{
+    text-decoration: none !important;
+}
+#page-user-profile li.contentnode dl, #page-user-profile.dir-ltr li.contentnode dl {
+    margin-bottom: 0px !important;
+}
+
+
+.block .header h2 {
+  padding: .2em 0 0 .2em !important;
+}
+
+/* Ticket #220- Categories Expand/Collapse */
+#course-category-listings #category-listing .listitem.collapsed>ul.ml {
+  display: none;
+}
+
+/* Ticket #221- Course Expand/Collapse */
+.course_category_tree .category.with_children>.info>.categoryname {
+  cursor: pointer;
+  background-image: url(/theme/image.php?theme=bootstrapbase&component=core&image=t%2Fexpanded);
+}
+.course_category_tree .category.with_children.collapsed>.info>.categoryname {
+  background-image: url(/theme/image.php?theme=bootstrapbase&component=core&image=t%2Fcollapsed);
+}
+.course_category_tree .category>.info>.categoryname {
+  padding: 2px 18px;
+  margin: 3px;
+  background-image: url(/theme/image.php?theme=bootstrapbase&component=core&image=t%2Fcollapsed_empty);
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+
+/* #Ticket #222 - Feedback/Answer Content Width */
+.path-mod-lesson .correctanswer {
+    width: 100% !important;
+}

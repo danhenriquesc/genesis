@@ -1,0 +1,134 @@
+/* Course List */
+#featuredCourses{
+    color: [[setting:color2]];
+    font-size: 17px !important;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#featuredCourses>.p{
+    float: left;
+}
+#allCourses{
+    float: right;
+}
+#allCourses div{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    background: [[setting:color1]];
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font-size: 13px !important;
+    font-weight: bold;
+    height: 100%;
+    padding: 5px 15px;
+    
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+#allCourses div:hover{
+    background-color: [[setting:color3]];
+}
+
+body#page-my-index #contentarea .course,
+body#page-site-index #contentarea .course{
+    border: 1px solid #EEEEEE;
+    height: 280px;
+    margin-bottom: 15px;
+    /* width: 100%; */
+}
+
+/* Link Box*/
+.linkbox{
+    background: #F1F2F2;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    height: 360px;
+    line-height: 15px;
+    margin-bottom: 15px;
+    padding: 25px 10px 0 10px;
+    width: 100%;
+    
+    -moz-transition: background-color 2s linear;
+    -webkit-transition: background-color 2s linear;
+    -o-transition: background-color 2s linear;
+    transition: background-color 2s linear;
+    -moz-transition: border 2s ease-out;
+    -webkit-transition: border 2s ease-out;
+    -o-transition: border 2s ease-out;
+    transition: border 2s ease-out;
+}/*
+.linkbox:hover{
+    background: #E1E1E1;
+    border: 1px solid #BBBBBB;
+    cursor: pointer;
+
+    -moz-transition: background-color 2s linear;
+    -webkit-transition: background-color 2s linear;
+    -o-transition: background-color 2s linear;
+    transition: background-color 2s linear;
+    -moz-transition: border 2s ease-out;
+    -webkit-transition: border 2s ease-out;
+    -o-transition: border 2s ease-out;
+    transition: border 2s ease-out;
+}*/
+.linkbox a{
+    text-decoration: none !important;
+}
+.linkbox p{
+    color: #6C6C6C;
+    width: 100%;
+}
+.linkbox p.title{
+    margin: 5px auto;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.linkbox p.description{
+    font-size: 12px;
+    margin-top: 30px;
+    text-align: center;
+}
+.linkbox div.readmore{
+    background: [[setting:color1]];
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 25px auto 0 auto;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    
+    -moz-transition: background-color 1s ease-out;
+    -webkit-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+}
+
+.linkbox div.readmore:hover{
+    background: [[setting:color3]];
+}
+
+/* Link Box Icons */
+.linkboxicon{
+    height: 70px;
+    margin: 0 auto;
+    width: 90px;
+    text-align: center;
+}
+.linkboxicon i{
+    color: #969696;
+}/*
+.linkbox:hover .linkboxicon i{
+    color: [[setting:color1]];
+}*/

@@ -1,0 +1,108 @@
+.loginbox{
+    height: auto; 
+    margin: 0 auto;
+    width: 415px; 
+}
+.loginbox form{
+    background: url([[pix:theme|loginboxbg]]);
+    height: 198px; 
+    width: 415px; 
+}
+.loginbox div.error{
+    background: [[setting:color2]];
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    width: 415px; 
+}
+.loginbox input[type="submit"]{
+    background: [[setting:color1]] url([[pix:theme|loginsubmit]]) center no-repeat;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font-size: 0;
+    height: 198px;
+    margin: 0;
+    width: 72px;
+    
+     -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.loginbox input[type="submit"]:hover{
+    background-color: [[setting:color4]];
+}
+
+.loginbox form div.leftarea{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    float: left;
+    padding: 15px;
+}
+.loginbox form div.leftarea p{
+    float: left;
+}
+.loginbox form div.leftarea a{
+    float: right;
+    padding-top: 2px;
+}
+.loginbox form div.leftarea .inputarea{
+    height: 110px;
+    margin-top: 15px;
+}
+.loginbox form div.leftarea .inputarea div{
+    float: left;
+}
+.loginbox form div.leftarea .inputarea div label{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.loginbox form div.leftarea .inputarea div input[type="text"],
+.loginbox form div.leftarea .inputarea div input[type="password"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    display: block;
+    height: 25px;
+    margin-top: 8px;
+    padding: 4px;
+    width: 147px;
+}
+.loginbox form div.leftarea .inputarea div input[type="text"]{
+    margin-right: 15px;
+}
+.loginbox form p{
+    color: [[setting:color4]];
+    font-size: 15px;
+    font-weight: bold;
+}
+.loginbox form a{
+    color: #FFFFFF;
+    font-size: 13px;
+    text-decoration: none;
+}
+.loginbox form div.remember{
+    color: #FFFFFF;
+    float: left;
+    font-size: 13px;
+}
+.loginbox form div.remember input[type="checkbox"]{
+    cursor: pointer;
+    float: left;
+    margin-top: 2px; 
+}
+.loginbox form div.remember label{
+    float: left;
+}
+.otherLoginMethod{
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.otherLoginMethod>a.shibbolethLogin {
+    display: block;
+    margin-bottom: 15px;
+}

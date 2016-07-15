@@ -1,0 +1,673 @@
+/* Header 1 */
+#header1 #topbar{
+    background-color: #F1F2F2;
+    height: 38px;
+    border-bottom: 1px solid #DFDFDF;
+    margin-bottom: 0;
+}
+#header1 .topbutton{
+    background-color: [[setting:color1]];
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    float: right;
+    height: 38px;
+    padding-top: 9px;
+    text-align: center;
+    width: 60px;
+    
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+#header1 p#topText{
+    color: #A4A4A4;
+    float: right;
+    margin: 10px 15px 0 0;
+}
+#header1 p#topText>a{
+    color: #A4A4A4;
+    text-decoration: none;
+}
+#header1 p#topText>a:hover{
+    color: #888888;
+}
+#header1 .topbutton:hover{
+    background-color: [[setting:color3]];
+}
+#header1 .topbutton a{
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px !important;
+    text-decoration: none;
+}
+#header1 .topbutton a:hover{
+    text-decoration: none;
+}
+
+#menubar{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    height: auto;
+    padding: [[setting:headerPadding]] 0;
+    margin-bottom: 0;
+}
+
+/* Menu */
+div#menu{
+    float: right;
+    margin-top: [[setting:menuMarginTop]];
+}
+
+div#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+div#menu>ul>li{
+    float: left;
+    padding: 0;
+}
+div#menu li.has-sub>ul{
+    background: #FFFFFF;
+    border-top: 4px solid [[setting:color1]] !important;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    height: 110px;
+    display: none;
+    height: auto;
+    margin: -12px 0 0 16px;
+    padding: 0px;
+    position: absolute;
+    width: 170px;
+    z-index: 2000;
+}
+div#menu li.has-sub>ul>li{
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    padding: 10px;
+}
+div#menu li.has-sub>ul>li>a{
+    color: #949494;
+    font-size: 12px !important;
+    text-decoration: none;
+}
+div#menu li.has-sub>ul>li>a:hover{
+    color: [[setting:color1]];
+}
+
+div#menu li:hover ul {
+    display: block;
+}
+
+div#menu>ul>li>a {
+    color: #868787;
+    display: inline-block;
+    font-size: 22px !important;
+    font-weight: lighter;
+    letter-spacing: 1px !important;
+    margin: 17px 15px !important;
+    outline: none;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+}
+div#menu>ul>li>a.active{
+    color: [[setting:color1]] !important;
+}
+div#menu>ul>li:last-child>a{
+    margin: 17px 0 17px 15px !important
+}
+div#menu>ul>li:last-child>a{
+    margin-right: 0 !important;
+}
+div#menu>ul>li>a:hover,
+div#menu>ul>li>a:focus {
+    outline: none;
+}
+
+div#menu>ul>li>a{
+    overflow: hidden;
+    padding: 0 !important;
+    height: 1.3em !important;
+}
+
+div#menu>ul>li>a>span {
+    display: inline-block;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+div#menu>ul>li>a>span::before {
+    position: absolute;
+    top: 100%;
+    content: attr(data-hover);
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+div#menu>ul>li>a:hover span,
+div#menu>ul>li>a:focus span {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    transform: translateY(-100%);
+    color: [[setting:color1]];
+}
+
+div#menu>ul>li>a.menuactive{
+    color: [[setting:color1]];
+}
+
+
+div#responsive_menu{
+    background: #FFFFFF;
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 10000000;
+
+    border: 1px solid #EEEEEE;
+    border-bottom: 0;
+}
+div#responsive_menu>.rp-menu{
+    margin: 0;
+}
+div#responsive_menu li a{
+    background: #fff;
+    color: [[setting:color1]];
+    text-decoration: none;
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    display: block;
+    text-transform: capitalize;
+    border-bottom: 1px solid #eee;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+div#responsive_menu li ul.has-submenu {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div#responsive_menu li ul.has-submenu li a {
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    padding-left: 40px;
+}
+
+div#responsive_menu ul{
+    list-style: none;
+    font-size: 18px;
+    margin-left: 0;
+    width: 100%;
+}
+
+div#responsive_menu ul a{
+    text-decoration: none;
+}
+
+div#responsive_menu_button{
+    background: url([[pix:theme|responsive_menu|]]);
+    display: none;
+    height: 30px;
+    width: 30px;
+    float: right;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+/* Footer */
+#footer{
+    background: #252525;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    bottom: 0;
+    min-height: 265px;
+    height: auto;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+#footer ul{
+    margin: 0;
+}
+
+#footer p.title{
+    border-bottom: 1px solid [[setting:color4]];
+    color: [[setting:color4]];
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0;
+    padding-bottom:3px;
+    text-transform: uppercase;
+}
+
+#footerend{
+    background: #020202;
+    bottom: 0;
+    color: #FFFFFF;
+    min-height: 35px;
+    height: auto;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+
+#footerend ul.social-icons{
+    float: right;
+    margin-top: 7px;
+}
+#footerend ul.social-icons>li{
+    margin: 6px 0 0 10px;
+}
+#footerend ul.social-icons>li i{
+    color: #969696;
+    float: right;
+}
+#footerend ul.social-icons>li i:hover{
+    color: [[setting:color1]];
+}
+
+#footerendleft{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    color: #F1F2F2;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+#footerendright{
+    float: right;
+}
+
+/* Footer Ararazu Modules */
+
+/* About us */
+.footermod{
+    color: #FFFFFF;
+}
+
+.footermod_aboutus p{
+    text-align: justify;
+    width: 100%;
+}
+
+/* Image */
+.footermod_image div.image{
+    height: 150px;
+    width: 100%;
+}
+.footermod_image div.image img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Links */
+.footermod_links ul.links{
+    list-style: none;
+    width: 100%;
+}
+.footermod_links ul.links li{
+    border-bottom: 1px solid #5F6366;
+    padding: 6px 0;
+}
+.footermod_links ul.links li:first-child{
+    padding-top: 0;
+}
+.footermod_links ul.links li:last-child{
+    border-bottom: 0;
+}
+
+.footermod_links ul.links li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Contact Info */
+.footermod_contactinfo ul.contactinfos{
+    list-style: none;
+    width: 90%;
+}
+.footermod_contactinfo ul.contactinfos li:first-child{
+    padding-top: 0;
+}
+.footermod_contactinfo ul.contactinfos li{
+    margin-bottom: 9px;
+}
+.footermod_contactinfo ul.contactinfos li>i{
+    margin-right: 10px;
+}
+
+/* NEW HEADERS - Genesis 2.0 */
+
+/* Header 1 */
+
+#header1 ul.social-icons{
+    float: left;
+    margin-top: 6px;
+}
+#header1 ul.social-icons>li{
+    margin: 6px 15px 0 0;
+}
+#header1 ul.social-icons>li i{
+    color: #969696;
+    float: left;
+}
+#header1 ul.social-icons>li i:hover{
+    color: [[setting:color1]];
+}
+
+/* Header 2 */
+
+#header2 #topbar{
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 4px solid [[setting:color1]];
+    height: 43px;
+    margin-bottom: 0;
+}
+#header2 p#topText{
+    border-right: 1px solid #DDDDDD;
+    color: #A4A4A4;
+    float: left;
+    margin: 10px 0 0 0;
+    padding: 0 7px 0 0;
+}
+#header2 p#topText>a{
+    color: #A4A4A4;
+    text-decoration: none;
+}
+#header2 p#topText>a:hover{
+    color: #888888;
+}
+#header2 .topbutton a{
+    color: #A4A4A4;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    margin: 10px 0 0 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#header2 div#menu>ul>li>a{
+    font-size: 18px !important;
+}
+#header2 ul.social-icons{
+    float: right;
+    margin-top: 6px;
+}
+#header2 ul.social-icons>li{
+    margin: 6px 0 0 15px;
+}
+#header2 ul.social-icons>li i{
+    color: #969696;
+    float: right;
+}
+#header2 ul.social-icons>li i:hover{
+    color: [[setting:color1]];
+}
+
+/* Header 3 */
+
+#header3 #topbar{
+    background-color: [[setting:color1]];
+    height: 38px;
+    margin-bottom: 0;
+}
+#header3 p#topText{
+    border-right: 1px solid #DDDDDD;
+    color: #FFFFFF;
+    float: left;
+    margin: 10px 0 0 0;
+    padding: 0 7px 0 0;
+}
+#header3 p#topText>a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#header3 .topbutton a{
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    margin: 10px 0 0 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#header3 .socialiconsArea a{
+    float: right;
+}
+#header3 div#menu>ul>li>a{
+    font-size: 18px !important;
+}
+#header3 ul.social-icons{
+    float: right;
+    margin-top: 6px;
+}
+#header3 ul.social-icons>li{
+    margin: 6px 0 0 15px;
+}
+#header3 ul.social-icons>li i{
+    color: #FFFFFF;
+    float: right;
+}
+#header3 ul.social-icons>li i:hover{
+    color: [[setting:color2]];
+}
+
+/* Header 4 */
+
+#header4 #topbar{
+    background-color: [[setting:color1]];
+    height: 38px;
+    margin-bottom: 0;
+}
+#header4 #menubar{
+    border-bottom: 1px solid #DDDDDD;
+}
+#header4 #submenubar{
+    margin-bottom: 0;
+}
+#header4 p#topText{
+    border-right: 1px solid #DDDDDD;
+    color: #FFFFFF;
+    float: left;
+    margin: 10px 0 0 0;
+    padding: 0 7px 0 0;
+}
+#header4 p#topText>a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#header4 .topbutton a{
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    margin: 10px 0 0 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#header4 .socialiconsArea a{
+    float: right;
+}
+#header4 div#menu{
+    float: inherit;
+    width: 100%;
+}
+#header4 div#menu>ul>li>a{
+    font-size: 16px !important;
+}
+#header4 .iconsocial{
+    background-position-y: -100px;
+}
+#header4 div#menu>ul{
+    float: inherit;
+    text-align: center;
+    width: 100%;
+}
+#header4 div#menu>ul>li{
+    display: inline;
+    float: none;
+    position: relative;
+    text-align: left;
+}
+#header4 div#menu>ul>li>a, #header4 div#menu>ul>li:last-child>a{
+    display: inline-block;
+    margin: 10px 15px !important;
+}
+#header4 div#menu li.has-sub>ul {
+    left: 0;
+    margin: -13px 0 0 16px;
+}
+#header4 ul.social-icons{
+    float: right;
+    margin-top: 6px;
+}
+#header4 ul.social-icons>li{
+    margin: 6px 0 0 15px;
+}
+#header4 ul.social-icons>li i{
+    color: #FFFFFF;
+    float: right;
+}
+#header4 ul.social-icons>li i:hover{
+    color: [[setting:color2]];
+}
+
+/* Header 5 */
+
+#header5 #topbar{
+    background-color: [[setting:color1]];
+    height: 38px;
+    margin-bottom: 0;
+}
+#header5 #submenubar{
+    margin-bottom: 0;
+}
+#header5 p#topText{
+    border-right: 1px solid #DDDDDD;
+    color: #666666;
+    float: right;
+    margin: 10px 0 0 0;
+    padding: 0 7px 0 0;
+}
+#header5 p#topText>a{
+    color: #666666;
+    text-decoration: none;
+}
+#header5 .topbutton a{
+    color: #666666;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    margin: 10px 0 0 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#header5 .socialiconsArea a{
+    float: left;
+}
+#header5 div#menu{
+    background: [[setting:color2]];
+    float: inherit;
+    margin-top: 0;
+    padding-top: 10px;
+    width: 100%;
+}
+#header5 div#menu>ul>li>a, #header5 div#menu>ul>li>a:hover span, #header5 div#menu>ul>li>a:focus span{
+    color: #FFFFFF;
+    font-size: 16px !important;
+}
+#header5 div#menu li.has-sub>ul{
+    left:0;
+    margin-top: -14px;
+    border-top: 18px solid [[setting:color2]] !important;
+}
+#header5 div#menu>ul{
+    float: inherit;
+    text-align: center;
+    width: 100%;
+}
+#header5 div#menu>ul>li{
+    display: inline;
+    float: none;
+    position: relative;
+    text-align: left;
+    margin: 37px 0 0 0;
+}
+#header5 div#menu>ul>li>a, #header5 div#menu>ul>li:last-child>a{
+    display: inline-block;
+    margin: 10px 15px !important;
+}
+#header5 .socialiconsArea, #header5 .topbutton, #header5 #toptext{
+    margin-top: [[setting:menuMarginTop]]; 
+}
+#header5 .loginResponsive{
+    display: none;
+    float: right;
+}
+#header5 ul.social-icons{
+    float: left;
+    margin-top: 7px;
+}
+#header5 ul.social-icons>li{
+    margin: 6px 10px 0 0;
+}
+#header5 ul.social-icons>li i{
+    color: #969696;
+    float: right;
+}
+#header5 ul.social-icons>li i:hover{
+    color: [[setting:color1]];
+}
+
+/* Body Boxed*/
+@media screen and (min-width: 1350px){
+    html.bgcolor body,
+    html.bgpattern body,
+    html.bgimage body{
+        width: 1350px;
+        margin: 0 auto;
+    }
+    html.bgcolor{
+        background: [[setting:bgcolor]];
+    }
+    html.bgpattern{
+        background-image: url([[setting:bgpattern]]);
+        background-attachment: scroll;
+        background-size: auto;
+        background-position: 50% 50%;
+        background-repeat: repeat repeat; 
+    }
+    html.bgimage{
+        background-image: url([[setting:bgimage]]);
+        background-attachment: fixed;
+        background-size: auto;
+        background-position: 50% 50%;
+        background-repeat: repeat repeat; 
+    }
+}
+
+[[setting:customCSS]]

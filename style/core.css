@@ -1,0 +1,1594 @@
+html a:hover,body a:hover {
+    text-decoration: underline;
+}
+
+/** remove text decoration from some links **/
+
+div.yui3-widget-bd a, .tabtree li a, .block div.content a, .unlist a, .course_category_tree a, .section a {
+    text-decoration: none;
+}
+
+a:active {
+    outline: 0; /* for browsers that understand */
+}
+
+a:focus {
+    outline: 0; /* for browsers that understand */
+}
+
+/**header divs **/
+
+#page-header {
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+div#headerinner {
+    width: 91%;
+    min-width: 910px;
+    height: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#headright {
+    float: right;
+    font-size: 10px;
+    font-weight: 200;
+    margin-top: 0;
+    padding-top: 0;
+    min-width: 180px;
+    text-align: right;
+    color: #eeeeee;
+    line-height: 30px;
+    min-width: 400px;
+}
+.dir-rtl #headright {
+    float: left;
+    min-width: 300px;
+}
+
+#headright a {
+    color: #fff;
+}
+
+#headright div.langmenu {
+    float: right !important;
+    display: inline !important;
+    padding: 0px 0px 0px 0px !important;
+    line-height: 28px !important;
+    margin: 0px 0px 0px 5px !important;
+    font-size: 9px;
+}
+
+.dir-rtl #headright div.langmenu {
+    float: left !important;
+}
+
+#headleft {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.dir-rtl #headleft {
+    float: right;
+}
+
+/** Logo and menu bar divs and wrap **/
+
+#textcontainer-wrap {
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #fff;
+}
+
+#textcontainer {
+    clear: both;
+    border: none;
+    width: 92%;
+    min-width: 910px;
+    height: 130px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+div.thetitle {
+    width: 340px;
+    height: 130px;
+    float: left;
+}
+
+.dir-rtl div.thetitle {
+    float: right;
+}
+
+#nologo {
+    width: 337px;
+    float: left;
+    overflow: hidden;
+    padding-left: 3px;
+    margin-top: 40px;
+    }
+
+.dir-rtl #nologo {
+    float: right;
+    padding-right: 3px;
+}
+
+#nologo.nomenu {
+    width: 100%;
+}
+
+#nologo a, #nologo {
+    font-size: 35px;
+    font-style: italic;
+    font-family: Palatino,"Palatino Linotype",Georgia,"Times New Roman",serif;
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 45px;
+}
+
+#nologo a:hover {
+    text-decoration: none;
+}
+
+div.rightinfo {
+    float: right;
+    min-width: 470px;
+    height: 130px;
+    overflow: hidden;
+}
+.dir-rtl div.rightinfo {
+    float: left;
+}
+
+#menucontainer {
+    height: 45px;
+    margin-top: 40px;
+}
+
+#course-header {
+    width: 93%;
+    min-width: 910px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/** main content wraps **/
+
+#outercontainer {
+    width: 91%;
+    min-width: 910px;
+    margin:0 auto;
+    background-position: 78% 100%;
+}
+
+#container {
+    width: 100%;
+    margin:0 auto;
+    border: 1px solid #EEEEEE;
+}
+
+
+/** remove background image line for post or pre or content only **/
+
+.side-pre-only #innercontainer, .content-only #innercontainer, .content-only #container, .side-post-only #container {
+    background-image: none !important;
+}
+
+/** breadcrumb and button holders at top of page content **/
+
+div#jcontrols_button {
+    width: 100%;
+    min-height: 35px;
+    border-top: 1px solid #fff;
+}
+
+div#jcontrols_bottom {
+    width: 100%;
+    height: 35px;
+    clear: both;
+}
+
+div.jcontrolsleft {
+    min-height: 35px;
+    line-height: 35px;
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 13px;
+    float: left;
+    min-width: 100px;
+}
+.dir-rtl div.jcontrolsleft {
+    float:right;
+    margin-right: 15px;
+}
+
+div.jcontrolsright {
+    float: right;
+    min-width: 100px;
+    min-height: 35px;
+    margin-right: 15px;
+}
+
+.dir-rtl div.jcontrolsright {
+    float: left;
+    margin-left: 15px;
+}
+
+div.jcontrolsright div.singlebutton, div.jcontrolsright div.forumsearch {
+    margin: 5px 0px 0px;
+}
+
+/** foot wraps and inner divs **/
+
+#course-footer {
+    width: 93%;
+    min-width: 910px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#footer {
+    width: 91%;
+    height: 35px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#page-footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: none;
+    margin-top: 10px;
+    height: 35px;
+}
+
+.johndocs {
+    float: right;
+    height: 15px;
+    font-size: 8px;
+    margin: 10px 3px 0px 0px;
+    color: #333333;
+}
+
+.johndocs a, div.johndocsleft a {
+    font-weight: 200;
+    text-decoration: none;
+}
+
+div.johndocsleft {
+    float: left;
+    height: 15px;
+    margin-top: 10px;
+    width: 300px;
+    color: #333333;
+    font-size: 11px;
+}
+.dir-rtl div.johndocsleft {
+    float: right;
+}
+
+/** Some breadcrumb style **/
+
+.breadcrumb ul {
+    line-height: 35px;
+}
+
+.breadcrumb li a,.breadcrumb li, .breadcrumb li a:visited {
+    font-weight: 200;
+    text-decoration: none;
+    color: #666666;
+    font-size: 12px;
+}
+
+.breadcrumb li a:hover {
+    text-decoration: underline;
+    color: #333333;
+}
+
+.breadcrumb li img {
+    vertical-align: middle;
+}
+
+/** breadcrumb image replacement **/
+
+div#jcontrols_button span.arrow.sep {
+    font-size: .01em;
+    color: #fafafa;
+    background: url([[pix:theme|breadcrumb_separator_arrow_2_dots]]) no-repeat;
+    background-position: 50% 7px;
+    display: inline-block;
+    width: 16px;
+}
+
+/** Block styles **/
+
+.block {
+    margin: 0 0 5px 0 !important;
+    padding: 0 0 0 0 !important;
+    border: none !important;
+}
+
+.block div.header {
+    margin: 0 0 0 !important;
+    padding: 0 5px !important;
+    min-height: 33px;
+    height: auto !important;
+    height: 33px;
+    background: #F1F2F2;
+    color: #5b5b5b;
+}
+
+
+.block.block_with_controls div.header div.commands {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding: 2px;
+}
+
+.block.block_with_controls div.header div.commands a img {
+    margin-right: 3px;
+}
+
+.title h2 {
+    padding: 0px 0px 0px 10px;
+    font-size: 13px;
+    text-transform: none;
+    margin: 0 !important;
+    line-height: 32px;
+    font-weight: 800;
+}
+
+.block div.block_action input, .block div.block_action img {
+    margin-top: 3px;
+    margin-right: 3px;
+    position: relative;
+    top: 6px;
+}
+
+.block div.content {
+    font-size: 12px;
+    font-weight: 200;
+    padding: 10px 15px 15px;
+}
+
+/** some specific block styles for calendar block, login block, my profile block, etc. **/
+
+.block_calendar_month table.minicalendar.calendartable td,.block_calendar_month table.minicalendar.calendartable th {
+    border: none !important;
+}
+
+.block_calendar_month table.minicalendar {
+    margin-bottom: 0px !important;
+}
+
+.block_calendar_month table.minicalendar.calendartable th abbr {
+    border: none !important;
+    text-decoration: none;
+}
+
+.block_comments div.content li {
+    list-style-type: none;
+}
+
+.block_messages.block div.content .list a {
+    font-size: 10px;
+}
+
+.block_login.block div.content div {
+    margin-bottom: 9px;
+    clear: both;
+}
+
+.block_login.block div.content label {
+    font-size: 11px;
+    display: inline-block;
+    min-width: 50px;
+    margin-right: 3px;
+}
+
+.block_myprofile div.content div {
+    font-size: 11px;
+}
+
+.block_myprofile div.content div.myprofileitem.picture {
+    width: 105px;
+    float: left;
+}
+
+.block_myprofile div.myprofileitem.fullname {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.block_myprofile div.myprofileitem.edit {
+    clear: both;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.block_news_items div.content li.post {
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+
+.block_news_items div.content div.head.clearfix {
+    font-size: 11px;
+}
+
+.block_news_items div.content div.info {
+    font-weight: 600;
+}
+
+/** inner block style for decent display of recent news, etc **/
+
+.block_recent_activity.block_docked div.content h2.main,
+.block_recent_activity.block_docked div.content h3.main,
+.side-pre .block div.content h2.main,
+.side-post .block div.content h2.main,
+.block div.content h3.main,
+.block div.content h2 {
+    font-size: 13px;
+    color: #333;
+    font-weight: 800;
+    background: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/** a few styles for the tabs **/
+
+div.tabtree li a span {
+    font-size: 11px;
+}
+
+/** yui overlays **/
+
+div.yui3-widget.yui3-overlay.yui3-widget-positioned {
+    border: 1px solid #cccccc;
+}
+
+div.yui3-overlay-content.yui3-widget-stdmod {
+    border: 1px solid #fff;
+    background: #ffff66 url([[pix:theme|alert-overlay]]) repeat-x;
+}
+
+div.yui3-widget-bd {
+    border: none;
+    background: none;
+}
+
+div.yui3-widget-bd h2.helpheading {
+    font-size: 16px !important;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+.yui-module.yui-overlay.yui-panel div.hd {
+    background: #eeeeee url([[pix:theme|bart5]]) repeat-x 0% 90%;
+}
+
+/**moodle dropdown css for yui menu **/
+
+#custommenu {
+    font-size: 13px;
+    font-weight: 600;
+    border: none !important;
+    height: 45px;
+}
+
+#custommenu .yui3-menu.yui3-menu-horizontal {
+    background: #fafafa url([[pix:theme|menubarback]]) repeat-x;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #dadada;
+    border-left: none;
+    border-right: 1px solid #cccccc;
+    float: right;
+}
+
+#custommenu .yui3-menu-content {
+    border-width: 0;
+}
+
+#custommenu .yui3-menu-content li a {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: lowercase;
+    line-height: 45px;
+    cursor: pointer;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+#custommenu .yui3-menu-label {
+    padding-left: 16px !important;
+    background: url([[pix:theme|yuiarrows]]) no-repeat 7px 17px;
+}
+
+#custommenu .yui3-menu-label-menuvisible {
+    background-position: 5px -23px;
+}
+
+#custommenu .yui3-menu-content li {
+    border-left: 1px solid #dadada;
+    border-top-width: 0;
+}
+
+#custommenu .yui3-menu-content li:hover {
+    background: #eee;
+}
+
+#custommenu .yui3-menu.custom_menu_submenu {
+    background: url([[pix:theme|yuiarrow]]) no-repeat 40px 0;
+    border: none;
+    min-width: 100px;
+    z-index: 99998;
+}
+
+#custommenu .yui3-menu.custom_menu_submenu .yui3-menu.custom_menu_submenu {
+    background-image: none;
+    background-color: transparent;
+    min-width: 100px;
+}
+
+#custommenu .yui3-menu.custom_menu_submenu .yui3-menu-content {
+    background: #fff;
+    z-index: 99999;
+    min-width: 200px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 20px 0px 0px -40px;
+}
+
+/** below style to move sub subs to the left to keep from going off the page **/
+
+#custommenu .yui3-menu.custom_menu_submenu .yui3-menu-content .yui3-menu.custom_menu_submenu .yui3-menu-content {
+    margin-left: -400px !important;
+    /** double the width of the menu item **/
+    position: absolute;
+    top: -15px;
+}
+
+#custommenu .yui3-menu.custom_menu_submenu .yui3-menu-content li {
+    border-left: none;
+}
+
+#custommenu .yui3-menu.custom_menu_submenu .yui3-menu-content li a {
+    font-size: 11px;
+    border-bottom: 1px solid #cccccc;
+    border-top-width: 0;
+    text-transform: none;
+    background: #eee;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+#custommenu .yui3-menu.custom_menu_submenu .yui3-menu-content li a:hover {
+    background: #cccccc;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+
+#custommenu .yui3-menu.custom_menu_submenu li a.yui3-menu-label {
+    background: #eee url([[pix:theme|yuiarrows]]) no-repeat 7px -72px;
+}
+
+#custommenu .yui3-menu.custom_menu_submenu li a.yui3-menu-label:hover {
+    background: #ccc url([[pix:theme|yuiarrows]]) no-repeat 7px -72px;
+}
+
+/** yui moodle dock bar **/
+
+#dock {
+    padding-top: 0px;
+    width: 30px;
+}
+#dock .dockedtitle{
+    border-top: 0;
+}
+
+div.dockeditem_container div.dockeditem {
+    /*background: url([[pix:theme|mbar]]) repeat-y;*/
+    border: none;
+    color: #868787;
+    /*font: 100% Constantia, Lucidabright, Lucida, Georgia, serif;*/
+}
+
+div.dockeditem_container.firstdockitem {
+    border-top: none;
+}
+
+div.dockedtitle {
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.dockedtitle h2 {
+    font-size: 13px !important;
+    font-weight: normal !important;
+}
+
+div.dockeditempanel_content {
+    border: 1px solid #dadada !important;
+    border-left: none !important;
+    font-size: 90%;
+}
+
+div.dockeditempanel_content a {
+    text-decoration: none;
+}
+
+div.dockeditempanel_hd {
+    text-align: left;
+    font-size: 12px;
+}
+
+div.dockeditempanel_hd {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background: #eee;
+    border-bottom: 1px solid #dadada !important;
+}
+
+div.dockeditempanel_hd h2 {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+div.dockeditempanel_bd ul, div.dockeditempanel_bd li {
+    list-style-type: none;
+    padding: 0;
+}
+
+div.dockeditempanel_bd {
+    font-weight: 200;
+}
+
+#dockeditempanel {
+    margin-left: 1px;
+}
+
+/**//*body #dockeditempanel {
+    margin-top: -20px;
+}*/
+
+#dock div.controls {
+    margin-top: 20px;
+    padding-top: 0px;
+    position: relative;
+}
+
+/** main headings **/
+
+.generalbox h2,h3.sectionname, h2.headingblock,h2.main,h3.main, h2.main a, h3.main a, div.loginpanel h2, div.signuppanel h2 {
+    font-size: 16px;
+    padding-bottom: 2px;
+    margin: 3px 0 2px;
+    border-bottom: none;
+    display: block;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    letter-spacing: -1px;
+    line-height: 1em;
+    }
+
+.generalbox h2, h3.sectionname, h2.main a, h3.main a, div.loginpanel h2, div.signuppanel h2, div.hd h3.main {
+    font-size: 22px;
+    background: none;
+}
+
+/** forum post style **/
+
+.forumpost .content {
+    border: 1px solid #dadada;
+    border-top: none;
+    background: #fff;
+    padding: 1em 1em 1em 1em;
+}
+
+.forumpost .content div.posting {
+    font-size: 90%;
+}
+
+.forumpost .topic {
+    border: 1px solid #dadada;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.forumpost .topic div {
+    margin:4px;
+}
+
+.forumpost .subject, .blog_entry div.subject a {
+    font-size: 19px;
+}
+
+td.picture {
+    border-right: none !important;
+}
+
+td.author {
+    border-left: none !important;
+}
+
+.forumpost {
+    border: none;
+}
+
+.forumpost .commands a {
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.forumpost .left {
+
+}
+
+.forumpost .left.picture {
+    background-image: url([[pix:theme|postline]]);
+    background-repeat: no-repeat;
+    background-position: 180% 106%;
+}
+
+.forumpost .left.picture img {
+    border: 1px solid #eee;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #dadada;
+    background: #fff;
+    margin: 4px 0 9px;
+}
+
+.forumpost .starter {
+    background-color: #FFF;
+}
+
+.forumpost .author {
+    font-size: 11px !important;
+    color: #666;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.forumpost .author a {
+    font-style: normal;
+    font-weight: 800;
+}
+
+.info .name a {
+    font-weight: bold;
+}
+
+.indent {
+    margin-left: 30px;
+}
+
+div.subscribelink {
+    text-align: right;
+}
+
+.subscribelink a {
+    text-decoration: none;
+    font-size: 11px;
+}
+
+/**tables and fields and foms oh my! **/
+
+.mform fieldset,fieldset.clearfix {
+    border: 1px solid #dadada !important;
+    background: #f9f9f9;
+}
+
+.mform .btn-cancel {
+    color: #32529A;
+    text-decoration: none;
+}
+.mform .btn-cancel:hover, .mform .btn-cancel:focus {
+    color: #4E2300;
+    text-decoration: none;
+}
+
+.ftoggler {
+    font-size: 18px;
+    color: #333333;
+}
+
+div.notifysuccess {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #008500;
+    border: 3px solid #dadada;
+    text-align: center;
+    background: #fff url([[pix:theme|check]]) no-repeat 2% 50%;
+    padding: 5px;
+}
+
+table a {
+    text-decoration: none;
+}
+
+td.maincalendar table.calendartable th, table.rolecap .header,.generaltable .header,.forumheaderlist .header,.files .header,.editcourse .header,.logtable .header,#attempts .header,table#categoryquestions th {
+    font-size: 11px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #fff !important;
+    border-top: 1px solid #ccc !important;
+    padding: 5px;
+}
+
+table#categoryquestions th a {
+    color: #fff;
+}
+
+.generaltable .header a,.forumheaderlist .header a, th.header.questionnametext a {
+    border: none;
+    color: [[setting:color1]] !important;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.generaltable .header,
+.generaltable .header a {
+    padding: 0;
+}
+
+tr.r1 td {
+    background-color: #f9f9f9;
+}
+
+table.rolecap td, table.rolecap th {
+    border-bottom: 1px solid #dadada;
+}
+
+table.rolecap td.risk {
+    border-left: 1px solid #dadada;
+}
+
+/** Course and category listings **/
+
+ul.unlist, ul.unlist li, ul.unlist li div, ul.unlist li div ul, ul.unlist li div ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+div.coursebox {
+    border-color: #eeeeee;
+}
+
+div.coursebox.collapsed {
+    margin-bottom: 0;
+}
+
+div.coursebox > .info > .name a {
+    font-weight: inherit;
+}
+
+div.coursebox > .info > h3.name a {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.coursebox div.summary {
+    font-size: 13px;
+    color: #666666;
+    text-align: justify;
+}
+
+.coursebox .content ul.teachers li,
+.coursebox .content .coursecat {
+    font-size: 10px;
+}
+
+.coursebox .content ul.teachers li a,
+.coursebox .content .coursecat a,
+.coursebox .content .coursefile a {
+    font-size: 11px;
+}
+
+div.course_category_tree .category > .info a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+div.course_category_tree div.coursebox.odd {
+    background: #fff;
+}
+
+div.course_category_tree div.coursebox > .info > .name > a {
+    font-size: 14px;
+}
+
+div.course_category_tree div.controls {
+    font-size: 10px;
+    color: #666;
+    text-transform: uppercase;
+}
+
+div.course_category_tree div.controls div {
+    margin-top: 3px;
+    margin-right: 10px;
+    border-bottom: 1px solid #dadada;
+}
+
+/** inside  of course **/
+
+li.section {
+    border-bottom: 1px solid #dadada;
+    clear: both;
+    min-height: 30px;
+}
+
+li#section-0 div.content {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+li.current {
+    border: 1px solid #CCC;
+}
+
+h3.weekdates {
+    border: 1px solid #ccc;
+    background: #eeeeee url([[pix:theme|bart5]]) repeat-x;
+    width: 170px;
+    font-size: 11px !important;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px 0px 3px;
+    color: #333333 !important;
+    padding: 3px;
+}
+
+.current h3.weekdates {
+    color: black !important;
+    font-weight: 600;
+}
+
+div.course-content div.left.side {
+    font-weight: 200;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    color: #666;
+}
+
+div.completionprogress {
+    font-size: 11px;
+    font-weight: 200;
+}
+
+/**my moodle page style **/
+
+div.assignment.overview {
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+    border-bottom: 1px dashed #dadada;
+}
+
+div.assignment.overview div.name {
+    font-weight: 600;
+}
+
+div.assignment.overview div {
+    display: block !important;
+    float: none !important;
+    width: 100% !important;
+}
+
+#page-my-index div.coursebox {
+    border-bottom: none;
+}
+
+
+/** glossary activity **/
+
+table.glossarycategoryheader h2.main {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+table.glossarypost {
+    margin-top: 0;
+    width: 100%;
+    border-bottom: 1px dashed #dadada;
+}
+
+table.glossarypost td.entry h3 {
+    font-size: 20px;
+}
+
+/** a few quick wiki styles **/
+
+#page-mod-wiki-view div.generalbox {
+    padding: 10px;
+}
+
+#page-mod-wiki-view h2.wiki_headingtitle {
+    font-size: 22px;
+    font-family: Georgia, serif;
+    color: #333333;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 3px;
+    margin-top: 2px;
+}
+#page-mod-wiki-view.dir-rtl h2.wiki_headingtitle {
+    text-align: right;
+}
+
+/**HR in content blocks **/
+
+.content hr {
+    height: 1px;
+    color: #dadada;
+    background-color: #dadada !important;
+    border: none;
+    border-style: none;
+}
+
+/** some MISC styles to clean things up and keep the theme consistant **/
+
+div#intro {
+    border: none;
+    text-align: left;
+    font-size: 14px;
+    color: #333333;
+}
+
+div.que {
+    border: 1px solid #dadada;
+}
+
+div.questionbankwindow.block div.header {
+    background: #eee !important;
+}
+
+#page-mod-quiz-edit .questionbankwindow.block div.header div.title h2,
+#page-mod-quiz-edit .questionbankwindow a#showbankcmd,
+#page-mod-quiz-edit .questionbankwindow a#hidebankcmd {
+    color: #333333 !important;
+    font-size: 11px;
+}
+
+div.generalbox, div.section {
+    border: 1px solid #dadada;
+}
+
+/** take borders away from some generalboxes here **/
+
+div.generalbox.sitetopic, div.generalbox.authsui,#page-admin-roles-assign div.generalbox, table.roleassigntable, table.roleassigntable td, #page-blocks-private-edit div.generalbox {
+    border: none;
+}
+
+div.generalbox.firstpageoptions h3.main {
+    font-size: 16px;
+}
+
+div.redirectmessage {
+    width: 60%;
+    margin: 10px auto 0 auto;
+    border: none;
+    font-size: 13px;
+    background: #fff url([[pix:theme|ajax-loader]]) no-repeat 50% 100%;
+    padding: 20px;
+}
+
+div.box.errorbox {
+    border: 1px solid #dadada;
+    color: #ff0000;
+    background: #fff url([[pix:theme|error]]) no-repeat 1% 3%;
+    padding: 10px;
+}
+
+div#newmessageoverlay {
+    padding: 10px;
+}
+
+div#newmessageoverlay a {
+    text-decoration: none;
+    font-size: 11px;
+}
+
+#page-mod-page-view div.generalbox {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+div#tablecontainer {
+    margin-bottom: 10px;
+}
+
+div.course-content div.availabilityinfo {
+    font-size: 11px;
+    font-style: italic;
+    padding: 2px;
+    border-bottom: 1px dashed #dadada;
+    margin-bottom: 10px;
+}
+
+div.singlebutton.forumaddnew {
+    text-align: center;
+}
+
+/* Style */
+div.singlebutton form input[type="submit"],input[type="submit"]{
+    background: [[setting:color1]];
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 5px 10px;
+}
+.navbutton div.singlebutton form input[type="submit"]{
+    margin-right: 0;
+}
+input[type="text"],input[type="password"],select, textarea{
+    border: 1px solid #DDDDDD;
+    min-height: 26px;
+}
+textarea{
+    resize: none;
+}
+.buttons,.singleselect{
+    text-align: center;
+}
+.generaltable{
+    margin: 10px auto 0 auto;
+}
+.generaltable th.header{
+    color: [[setting:color1]] !important;
+    font-size: 14px;
+    padding: 5px;
+}
+a,a:active{
+    color: [[setting:color1]];
+}
+#notice{
+    padding: 35px 0 !important;
+}
+.moodle-dialogue-base .moodle-dialogue-lightbox{
+    opacity:0.65;
+    -moz-opacity: 0.65;
+    filter: alpha(opacity=65);
+    z-index: 1 !important;
+}
+.choosercontainer #chooseform .option span.modicon img.icon, .choosercontainer #chooseform .nonoption span.modicon img.icon{
+    height: 20px !important;
+}
+.category-browse .coursebox .content{
+    padding: 0 10px !important;
+}
+.category-browse .coursebox .content .courseimage,
+.course-search-result .courseimage,
+.expanded .courseimage,
+.coursebox .courseimage{
+    height: 200px !important;
+    width: 220px !important;
+}
+.category-browse .coursebox .content .courseimage img,
+.course-search-result .courseimage img,
+.expanded .courseimage img,
+.coursebox .courseimage img{
+    min-height: 182px !important;
+    min-width: 200px !important;
+    max-height: 182px !important;
+    max-width: 200px !important;
+}
+
+.coursebox .content .summary{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    padding-right: 10px;
+    width: 620px !important;
+}
+ul.choices {
+	list-style: none !important;
+}
+
+/* Update 2.0 */
+img.iconsmall{
+    height: 12px;
+    width: 17px;
+}
+#categoryquestions tr.r0 *,
+#categoryquestions tr.r1 *{
+    border: 0;
+    color: #000000;
+}
+#categoryquestions tr.r0 th,
+#categoryquestions tr.r0 td,
+#categoryquestions tr.r1 th,
+#categoryquestions tr.r1 td{
+    border-top: 1px solid #ccc !important;
+}
+#categoryquestions tr.r1 {
+    background: #F9F9F9;
+}
+div.questionbank div.singleselect select.singleselect,div.questionbank #menucategory{
+    width: 100%;
+}
+img.iconhelp, .helplink img{
+    margin-right: 8px;
+    padding-left: 0;
+}
+#quizcontentsblock {
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+.editq .quizpage{
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    max-width: 467px;
+    padding: 10px 15px;
+}
+.editq .addpage{
+    max-width: 467px;
+}
+.quizpage>.pagetitle{
+    font-weight: bolder;
+}
+.quizpage>.pagecontent {
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 10px 0;    
+    padding: 10px;
+}
+.quizpage .questioncontentcontainer .questiontype{
+    display: inherit;
+}
+
+#mod_quiz_navblock .qnbutton {
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    height: 25px;
+    margin: 5px 10px 5px 0;
+    padding: 5px 0;
+    position: relative;
+    text-align: center;    
+    width: 25px;
+}
+#mod_quiz_navblock>.content{
+    padding: 10px 10px 15px 20px
+}
+
+#confirmdialog{
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 0 0 10px 0;
+}
+#confirmdialog .hd{
+    padding: 5px 10px;
+}
+#confirmdialog .bd, #confirmdialog .ft{
+    padding: 10px 10px 0 10px;
+}
+#confirmdialog .bd>span{
+    display: none;
+}
+#confirmdialog button{
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+    margin: 5px 5px 0 0;
+    padding: 5px;
+}
+#confirmdialog .container-close{
+    display: none;
+}
+#dateselector-calendar-content{
+    background: #E9E9E9;
+}
+#dateselector-calendar-panel{
+    border: 0;
+}
+
+.yui-calendar .calnavright, .yui-calendar .calnavleft, .calendar-controls .arrow_link.next>.arrow, .calendar-controls .arrow_link.previous>.arrow{
+    color: transparent;
+    text-indent: 0;
+}
+
+.yui-calendar .calnavright{
+    background: url([[pix:theme|icon_arrow_right]]) no-repeat right;
+    right: 5px;
+}
+.yui-calendar .calnavleft{
+    background: url([[pix:theme|icon_arrow_left]]) no-repeat left;
+    left: 5px;
+}
+
+.calendar-controls .arrow_link.next>.arrow{
+    background: url([[pix:theme|icon_arrow_right]]) no-repeat right;
+}
+.calendar-controls .arrow_link.previous>.arrow{
+    background: url([[pix:theme|icon_arrow_left]]) no-repeat left;
+}
+.calendar-controls .arrow_link.next{
+    text-align: left;
+}
+.calendar-controls .arrow_link.previous{
+    text-align: right;
+}
+
+/* HTML Editor - Moodle 2.6 and 2.7 */
+.moodleSkin img.mceIcon {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+/* Course and category management - Moodle 2.6 and 2.7 */
+.coursecat-management-header {
+    vertical-align: middle;
+}
+.coursecat-management-header h2 {
+    display: inline-block;
+    text-align: left;
+}
+.coursecat-management-header>div {
+    display: inline-block;
+    float: right;
+    line-height: 30.88px;
+}
+.coursecat-management-header>div>div {
+    display: inline-block;
+    margin: 10px 0;
+    margin-left: 1em;
+}
+.coursecat-management-header .view-mode-selector .moodle-actionmenu {
+    display: inline-block;
+    white-space: nowrap;
+}
+.moodle-actionmenu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.moodle-actionmenu, .moodle-actionmenu>ul, .moodle-actionmenu>ul>li {
+    display: inline-block;  
+}
+.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu {
+    display: block;
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-left: 4px;
+}
+.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret {
+    margin-top: 13px;
+    margin-left: 8px;
+    border-top-color: #777;
+}
+.moodle-actionmenu .toggle-display, .moodle-actionmenu .menu-action-text {
+    text-decoration: none;
+}
+.moodle-actionmenu[data-enhanced].show .menu a{
+    line-height: 30px;
+    text-decoration: none;   
+}
+.moodle-actionmenu[data-enhanced].show .menu a:hover{
+    background-color: [[setting:color1]] !important;
+}
+.row-fluid .span5 {
+    width: 40.17094017094017%;
+}
+.row-fluid .span7 {
+    width: 57.26495726495726%;
+}
+.row-fluid .span12 {
+    width: 100%;
+}
+.row-fluid [class*="span"] {
+    display: block;
+    float: left;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#course-category-listings h3 {
+    padding: .4rem .6rem .3rem 0;
+    margin: 0;
+    font-size: 20px;
+}
+#course-category-listings .listitem>div>.float-left {
+    float: left;
+}
+#course-category-listings .listitem>div>.float-right {
+    float: right;
+    text-align: right;
+}
+#course-category-listings .listing-actions {
+    padding: .4rem .3rem .3rem;
+    line-height: 2.2em;
+    text-align: center;
+}
+#course-category-listings .listing-actions a{
+    text-decoration: none;
+}
+#course-category-listings .listing-actions>.moodle-actionmenu {
+    display: inline-block;
+}
+#course-category-listings .moodle-actionmenu {
+    white-space: nowrap;
+}
+#category-listing ul.ml, #course-listing ul.ml{
+    margin: 1em 0;
+}
+#category-listing ul.ml .float-left.categoryname, #course-listing ul.ml .float-left.coursename{
+    text-decoration: none;
+    word-wrap:break-word;
+    max-width: 65%;
+}
+#course-category-listings #category-listing .course-count {
+    display: inline-block;
+    min-width: 3.5em;
+    margin-right: 2rem;
+    color: #a1a1a8;
+}
+.moodle-actionmenu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+#course-category-listings .item-actions {
+    display: inline-block;
+    display: initial;
+    margin-right: 1em;
+}
+#course-category-listings .listitem>div .item-actions .action-hide {
+  display: inline;
+}
+#course-category-listings .listitem[data-visible="0"]>div .item-actions .action-hide {
+  display: none;
+}
+#course-category-listings .listitem[data-visible="0"]>div .item-actions .action-show {
+  display: inline;
+}
+#course-category-listings .listitem>div .item-actions .action-show {
+  display: none;
+}
+.listitem.listitem-category .moodle-actionmenu[data-enhanced].show .menu a > img{
+    height: 22px;
+    width: 22px;
+}
+.jsenabled .moodle-actionmenu[data-enhance] .toggle-display {
+    display: inline;
+}
+.moodle-actionmenu.category-item-actions.item-actions>ul>li, .course-item-actions.item-actions a{
+    margin: 0 2px;
+}
+#course-category-listings .bulk-actions .detail-pair>* {
+    display: block;
+    width: 100%;
+}
+#course-category-listings .detail-pair .pair-key span {
+    display: block;
+    margin-right: 1rem;
+}
+.region-content.region-content-admin-layout{
+    padding: 0 15px;
+}
+.jsenabled #course-category-listings #course-listing .listitem .drag-handle {
+    display: none;
+}
+#course-category-listings .listing-pagination-totals.dimmed {
+    margin: .4rem 1rem .45rem;
+    color: #999;
+    text-align: center;
+}
+#course-category-listings .detail-pair .pair-key {
+    font-weight: bold;
+}
+.purgecaches{
+    display: none;
+}
+.navbutton #coursesearchnavbar .coursesearchbox input[type="submit"]{
+    margin-right: 0 !important;
+}
+
+
+/* Performance Info */
+.validators, .purgecaches, .performanceinfo {
+    text-align: center;
+}
+.performanceinfo {
+    margin: 10px 20%;
+}
+.performanceinfo span {
+    display: block;
+}
+.cache-store-stats.hihits {
+    background-color: #dff0d8;
+}
+.cache-store-stats {
+    padding: 0 1.3em;
+}
+.cache-store-stats.nohits {
+    background-color: #f2dede;
+}
+.performanceinfo .cachesused .cache-definition-stats {
+    display: inline-block;
+    margin: .3em;
+    vertical-align: top;
+    background-color: #f5f5f5;
+}
+.performanceinfo .cachesused .cache-stats-heading, .performanceinfo .cachesused .cache-total-stats {
+    margin-top: .3em;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+
+
+body#page-grade-report-grader-index #contentarea div.sklt-container{
+    width: 100%;
+    padding: 0 10px;
+}
+
+body#page-grade-report-grader-index #contentarea div.sklt-container .columns,
+body#page-grade-report-grader-index #contentarea div.sklt-container .column{
+    float: none;
+}
+
+body#page-grade-report-grader-index{
+    left: 0;
+    margin-left: 0;
+    position: relative;
+    width: 100%;
+}
+
+body#page-grade-report-grader-index #contentarea .navbar,
+body#page-grade-report-grader-index #contentarea div.region-content>div>div.urlselect,
+body#page-grade-report-grader-index #contentarea div.region-content>div>h2,
+body#page-grade-report-grader-index #contentarea div.region-content>div>form,
+body#page-grade-report-grader-index #contentarea div.block-region{
+  width: 1160px;
+  margin: 0 auto;
+}
+body#page-grade-report-grader-index #contentarea div.block-region{
+    min-height: 0;
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+    body#page-grade-report-grader-index #contentarea .navbar,
+    body#page-grade-report-grader-index #contentarea div.region-content>div>div.urlselect,
+    body#page-grade-report-grader-index #contentarea div.region-content>div>h2,
+    body#page-grade-report-grader-index #contentarea div.region-content>div>form,
+    body#page-grade-report-grader-index #contentarea div.block-region{
+      width: 930px;
+      margin: 0 auto;
+    }
+    body#page-grade-report-grader-index #contentarea div.block-region{
+        min-height: 0;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    body#page-grade-report-grader-index #contentarea .navbar,
+    body#page-grade-report-grader-index #contentarea div.region-content>div>div.urlselect,
+    body#page-grade-report-grader-index #contentarea div.region-content>div>h2,
+    body#page-grade-report-grader-index #contentarea div.region-content>div>form,
+    body#page-grade-report-grader-index #contentarea div.block-region{
+      width: 738px;
+      margin: 0 auto;
+    }
+    body#page-grade-report-grader-index #contentarea div.block-region{
+        min-height: 0;
+    }
+}

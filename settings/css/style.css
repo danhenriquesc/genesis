@@ -1,0 +1,273 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+#sidebarTabsArea>.sidebarTabs>p, .radioOption>label, input[type='text'], h1, h2, h3, .ararazuButton, #settingsContent *{
+	font-family: 'Ubuntu', sans-serif !important;
+}
+
+input[type='radio'], button{
+	cursor: pointer;
+}
+input[type='text'],select, textarea{
+	border: 1px solid #DDDDDD;
+	width: 400px;
+}
+textarea{
+	height: 100px;
+	resize: none;
+}
+input[type='text']{
+	padding: 5px;
+}
+h1{
+	border-bottom: 1px solid #DBDBDB;
+	font-size: 27px;
+	font-weight: lighter;
+	margin: 12px 0;
+}
+h2{
+	font-size: 16px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+h3{
+	font-size: 15px;
+	font-weight: lighter;
+	margin: 0 0 10px 0;
+}
+hr{
+	background: #CCCCCC;
+	height: 1px;
+	margin: 25px 0;
+}
+#container{
+	border: none;
+}
+#page-content{
+	overflow: none !important;
+}
+.clear{
+	clear: both;
+}
+#genesisSettingsHeader{
+	border: 1px solid #CDD2D2;
+	padding: 22px 20px;
+	height: 130px;
+	width: 100%;
+}
+.ararazuButton{
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: lighter;
+	height: 35px;
+	margin-top: 5px;
+	padding: 5px 0px;
+	text-align: center;
+	width: 90px;
+
+	transition: all 0.5s;
+}
+#ararazuButton:hover{
+	transition: all 0.5s;
+}
+.ararazuButtonBlue{ background-color: #4E87E9 !important; }
+.ararazuButtonBlue:hover{ background-color: #0754AB !important; }
+.ararazuButtonGreen{ background-color: #32BC65 !important; }
+.ararazuButtonGreen:hover{ background-color: #0D8F3D !important; }
+.ararazuButtonRed{ background-color: #D90024 !important; }
+.ararazuButtonRed:hover{ background-color: #8E0017 !important; }
+
+#DesignerModeWarningBox{
+	border-top: 1px solid #DDD;
+	width: 100%;
+	margin-top: 10px;
+	cursor: default;
+}
+#DesignerMode{
+	background: #fff;
+	color: #000;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: lighter;
+	height: 35px;
+	margin-right: 10px;
+	padding: 11px 15px 0 0;
+	text-align: left;
+}
+#DesignerMode a{
+	color: #000;
+	text-decoration: none;
+}
+#DesignerMode:focus,#DesignerModeWarning:focus,#DesignerMode:hover, #DesignerModeWarning:hover{
+	outline: none;
+}
+#DesignerModeWarning>span{
+	font-weight: bold;
+}
+#DesignerModeWarning{
+	background: #FFFFFF;
+	border-radius: 5px;
+	color: #666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	float: right;
+	font-size: 15px;
+	font-weight: lighter;
+	height: 30px;
+	margin-top: 7px;
+	padding: 3px 15px;
+}
+#settingsContent{
+	background: url('../images/bgTile.jpg') repeat-y;
+	border: 1px solid #CDD2D2;
+	border-top: 0;
+	height: auto;
+	margin-bottom: 20px;
+	width: 100%;
+}
+#sidebarTabsArea{
+	background-color: #F4F4F4;
+	border-right: 1px solid #CDD2D2;
+	float: left;
+	width: 270px;
+}
+#sidebarTabsArea>.sidebarTabs{
+	border-bottom: 1px solid #CDD2D2;
+	cursor: pointer;
+	height: 60px;
+	padding: 20px 25px;
+
+	transition: all 0.5s;
+}
+#sidebarTabsArea>.sidebarTabs:hover{
+	background-color: #E6E6E6;
+
+	transition: all 0.5s;
+}
+#sidebarTabsArea>.sidebarTabs.tabActive{
+	background-color: #DBDBDB;
+}
+#sidebarTabsArea>.sidebarTabs>img{
+	float: left;
+	margin-top: 2px;
+}
+#sidebarTabsArea>.sidebarTabs>p{
+	color: #555555;
+	float: left;
+	font-size: 17px;
+	font-weight: lighter;
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+.settingsArea{
+	color: #555555;
+	float: left;
+	height: auto;
+	margin-left: 19px;
+	min-height: 100px;
+	width: 870px;
+}
+.radioOption>label{
+	margin-right: 10px;
+}
+
+div.thumbListOption>img.thumbListItem{
+	border: 2px solid #FFFFFF;
+	cursor: pointer;
+	height: 50px;
+	width: 50px;
+}
+div.thumbListOption>img.thumbListItem.selected{
+	border: 2px solid #333333;
+}
+div.imageURLOption>span>img{
+	border: 1px solid #CCCCCC;
+	max-height: 150px;
+	width: auto;
+}
+div.listOption>table, div.singlelistOption>table{
+	width: 100%;
+}
+div.listOption>table>thead>tr>th, div.singlelistOption>table>thead>tr>th{
+	background: #DDDDDD;
+	border: 1px solid #BBBBBB;
+}
+div.listOption>table>thead>tr>th:first-child, div.singlelistOption>table>thead>tr>th:first-child{
+	width: 40px;
+}
+div.listOption>table>tbody>tr>td:first-child, div.singlelistOption>table>tbody>tr>td:first-child{
+	text-align: center;
+}
+div.listOption>table>thead>tr>th:last-child, div.singlelistOption>table>thead>tr>th:last-child{
+	width: 105px;
+}
+div.listOption>table>tbody>tr>td, div.singlelistOption>table>tbody>tr>td{
+	border: 1px solid #EEEEEE;
+}
+div.listOption>table>tbody>tr>td>div.ararazuButtonRed, div.singlelistOption>table>tbody>tr>td>div.ararazuButtonRed{
+	margin-right: -11px;
+}
+div.listOption>table>tbody>tr>td>input[type='text'], div.singlelistOption>table>tbody>tr>td>input[type='text'], div.singlelistOption>table>tbody>tr>td>select{
+	width: 100%;
+}
+div.listOption>table>tfoot>tr>td, div.singlelistOption>table>tfoot>tr>td{
+	text-align: center;
+}
+.slideshowOption table, .linkboxOption table{
+	width: 100%;
+}
+.slideshowOption>table>tbody>tr>td>table tr>td, .linkboxOption>table>tbody>tr>td>table tr>td{
+	border: 1px solid #DDDDDD;
+}
+.slideshowOption>table>tbody>tr>td, .linkboxOption>table>tbody>tr>td{
+	padding: 0;
+}
+.slideshowOption table input[type="text"], .slideshowOption table textarea,
+.linkboxOption table input[type="text"], .linkboxOption table textarea{
+	width: 100%;
+}
+.slideshowOption table textarea, .linkboxOption table textarea{
+	height: 100px;
+	resize: none;
+}
+div.slideshowOption img, div.linkboxOption img{
+	border: 1px solid #CCCCCC;
+	max-width: 100%;
+	height: auto;
+}
+.linkboxOption table select{
+	width: 150px;
+}
+.floatLeft{
+	float: left;
+}
+.left10px{
+	margin-left: 10px;
+}
+.left138px{
+	margin-left: 138px;
+}
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	.settingsArea{
+		width: 640px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#DesignerModeWarning{
+		display: none;
+	}
+	#DesignerMode{
+		width: 100%;
+		text-align: center;
+	}
+	.settingsArea{
+		width: 450px;
+	}
+}
