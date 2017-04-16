@@ -1,1 +1,1 @@
-*.rb linguist-language=settings/inc/* linguist-vendored
+linguist-language=settings/inc/* linguist-vendored
