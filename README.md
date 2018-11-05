@@ -3,9 +3,7 @@
 Genesis is a Premium Theme of Ararazu, the first Moodle Theme of ThemeForest, it was sold more than 2000 times.
 And now, Genesis is FREE! Enjoy it!
 
-Copyright :copyright:
-
-Ararazu - 2012
+Copyright :copyright: Ararazu - 2012
 
 * **Back-End Developer**: [Daniel Henrique][] / daniel.henrique.sc@gmail.com
 * **Art Director/Graphic Designer**: [Rafael Branco][] / rbranco@outlook.com
